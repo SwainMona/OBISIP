@@ -87,7 +87,7 @@ class BankAccount {
 			if(amount <= 100000f) {
 				transactions++;
 				balance += amount;
-				System.out.println("\nwithdraw successfully ");
+				System.out.println("\nsuccessfully Deposited ");
 				String str = amount + "Rs deposited\n";
 				transactionHistory = transactionHistory.concat(str);
 		}
